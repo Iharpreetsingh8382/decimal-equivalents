@@ -1,0 +1,6 @@
+# Loop through the numbers from 2 to 10
+for i in range(2, 11):
+    # Calculate the decimal equivalent of 1 divided by i
+    decimal_value = 1 / i
+    # Print the result
+    print(f"1/{i} = {decimal_value:.4f}")
